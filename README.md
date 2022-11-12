@@ -28,8 +28,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
+
+- Live Site URL: [Check it out here](https://sajeadvice.netlify.app/)
 
 ## My process
 
@@ -40,9 +41,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
@@ -50,8 +48,10 @@ Use this section to recap over some of your major learnings while working throug
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Saje](https://www.saje.hashnode.dev)
+- Frontend Mentor - [@SaGeKyle](https://www.frontendmentor.io/profile/SaGeKyle)
+- Twitter - [@Ominyi_Sage](https://www.twitter.com/Ominyi_Sage)
 
 ## Acknowledgement
+
+- [Frontend Mentor](https://www.frontendmentor.io)
