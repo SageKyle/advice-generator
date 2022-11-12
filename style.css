@@ -1,0 +1,101 @@
+/* base settings */
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: var(--bg-color);
+	color: var(--secondary-color);
+	height: 100vh;
+	width: 100%;
+	font-size: 1.6rem;
+	overflow-x: hidden;
+	font-family: 'Manrope', sans-serif;
+	font-weight: 400;
+	display: grid;
+	grid-template-columns: 1fr;
+	place-content: center;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	/* colors */
+	--primary-color: hsl(150, 100%, 66%);
+	--secondary-color: hsl(193, 38%, 86%);
+
+	--light-grey-color: hsl(217, 19%, 38%);
+	--tertiary-color: hsl(217, 19%, 24%);
+	--bg-color: hsl(218, 23%, 16%);
+}
+
+.container {
+	width: inherit;
+	margin: 2rem;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--tertiary-color);
+	border-radius: 2rem;
+	position: relative;
+}
+
+.advice-id {
+	color: var(--primary-color);
+	text-transform: uppercase;
+}
+
+.advice {
+	font-weight: 800;
+	font-size: 2.8rem;
+	padding: 2rem 0;
+}
+
+.pattern-divider {
+	height: 2rem;
+	width: 100%;
+	padding: 2rem;
+	margin-bottom: 2rem;
+	display: block;
+	background-image: url('/images/pattern-divider-mobile.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.get-advice {
+	width: 6rem;
+	aspect-ratio: 1/1;
+	position: absolute;
+	bottom: -3rem;
+	border: unset;
+	background-color: var(--primary-color);
+	padding: 1.5rem;
+	border-radius: 50%;
+	object-fit: contain;
+	cursor: pointer;
+}
+
+.get-advice:hover {
+	box-shadow: 3px 2px 33px 0px rgba(82, 255, 168, 0.95);
+}
+
+.get-advice img {
+	width: 100%;
+}
+
+.attribution {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	padding: 2rem;
+	font-size: 1.5rem;
+}
