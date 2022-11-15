@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-advice-generator-app-using-css-and-vanilla-js-zOijr_ZxkW)
 
 - Live Site URL: [Check it out here](https://sajeadvice.netlify.app/)
 
@@ -53,6 +53,6 @@ The purpose of this project was to help me review my knowledge of CSS. I was hav
 
 ## Author
 
-- Website - [Saje](https://www.saje.hashnode.dev)
+- Website - [Saje](https://www.saje.hashnode.dev) (Hashnode)
 - Frontend Mentor - [@SaGeKyle](https://www.frontendmentor.io/profile/SaGeKyle)
 - Twitter - [@Ominyi_Sage](https://www.twitter.com/Ominyi_Sage)
