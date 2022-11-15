@@ -11,7 +11,10 @@ const getAdvice = async () => {
 	await fetch('https://api.adviceslip.com/advice')
 		.then((res) => res.json())
 		.then((data) => (advice = data.slip))
-		.catch((err) => console.log(err));
+		.catch((err) => {
+			console.log(err);
+			advice = err.message + '. Please refresh the page';
+		});
 
 	// display advice
 	// advice ID
@@ -25,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	getAdvice();
 });
 
-// show another advice
+// display another advice
 toggleAdvice.addEventListener('click', () => {
 	getAdvice();
 });

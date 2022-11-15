@@ -1,4 +1,6 @@
-# Frontend Mentor - Advice generator app solution
+# Advice generator
+
+## A Frontend Mentor challenge solution
 
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -12,7 +14,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -25,6 +26,10 @@ Users should be able to:
 - Generate a new piece of advice by clicking the dice icon
 
 ### Screenshot
+
+![Desktop design](assets/desktop%20preview.jpg)
+![mobile design](assets/mobile%20preview.jpg)
+![Active State](assets/active%20state.jpg)
 
 ### Links
 
@@ -44,14 +49,10 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+The purpose of this project was to help me review my knowledge of CSS. I was having some issues fixing a bug with the layout in one of my [React project](https://devscope-synergy.web.app/) so I decided to take some time of to experiment with vanilla js and CSS. Through this project I was able to understand where the error was coming from; it turns out it had to do with default behaviour of CSS.
 
 ## Author
 
 - Website - [Saje](https://www.saje.hashnode.dev)
 - Frontend Mentor - [@SaGeKyle](https://www.frontendmentor.io/profile/SaGeKyle)
 - Twitter - [@Ominyi_Sage](https://www.twitter.com/Ominyi_Sage)
-
-## Acknowledgement
-
-- [Frontend Mentor](https://www.frontendmentor.io)
